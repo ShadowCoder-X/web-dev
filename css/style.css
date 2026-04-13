@@ -1,10 +1,12 @@
-h2 {
-  color: red;
+#pixel {
+  font-size: 20px;
 }
-p[draggle] {
-  color: red;
+#point {
+  font-size: 12pt;
 }
-
-p[draggle="false"] {
-  color: green;
+#em {
+  font-size: 1em;
+}
+#rem {
+  font-size: 1rem;
 }
