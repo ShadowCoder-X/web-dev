@@ -10,19 +10,45 @@ body {
 }
 .pricing-plan {
   flex: 1;
-  background: gray;
-
+  max-width: 400px;
+  padding: 20px;
+  background: #f2f2f2;
+  border-radius: 5px;
   text-align: center;
+  padding-bottom: 10px;
 }
 .plan-title {
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 .plan-price {
-  font-size: 1.6rem;
-  font-weight: 900;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
+.plan-features li {
+  margin-bottom: 20px;
+}
 .plan-features {
-  text-decoration: none;
+  padding-bottom: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan-button {
+  padding: 10px;
+  background: orangered;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+@media (max-width: 1250px) {
+  .pricing-container {
+    flex-direction: column;
+    height: 100%;
+  }
 }
