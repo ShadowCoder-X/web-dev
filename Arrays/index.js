@@ -13,7 +13,7 @@ function whosPlaying(names) {
   var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
   var randomPerson = names[randomPersonPosition];
 
-  console.log(randomPerson + " is going to buy lunch today!");
+  return `${randomPerson} is going to buy lunch today!`;
 }
 
 var whosPlaying = ["Micheal", "Rita", "John", "Paul", "Omoh"];
