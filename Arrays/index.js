@@ -16,4 +16,4 @@ function whosPlaying(names) {
   return `${randomPerson} is going to buy lunch today!`;
 }
 
-var whosPlaying = ["Micheal", "Rita", "John", "Paul", "Omoh"];
+var names = ["Micheal", "Rita", "John", "Paul", "Omoh"];
