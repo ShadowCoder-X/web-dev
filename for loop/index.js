@@ -23,7 +23,7 @@ function patBack(n) {
   var output = [];
   if (n === 5) {
     output = [1, 2];
-    output[1];
+    output.lenght;
   } else if (n >= 8) {
     output = [4, 7];
 
@@ -31,5 +31,5 @@ function patBack(n) {
   }
   return output;
 }
-output = patBack(8);
+output = patBack(5);
 console.log(output);
