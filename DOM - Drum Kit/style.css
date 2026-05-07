@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+button {
+  padding: 2rem;
+  color: red;
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #dbedf3;
+  font-size: "Arvo", cursive;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url();
+}
+
+.a {
+  background-image: url();
+}
+
+.s {
+  background-image: url();
+}
+
+.d {
+  background-image: url();
+}
+
+.i {
+  background-image: url();
+}
+
+.k {
+  background-image: url();
+}
+
+.l {
+  background-image: url();
+}
